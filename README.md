@@ -23,18 +23,19 @@ III) Data
 
 The table below depicts each feature used in the model, its specific context, and its source.
 
-FEATURE	CONTEXT	SOURCE
-Y: le_income	The median income level for residents of a county with less than a Bachelor’s Degree.	US Census Bureau American Community Survey 2016
-X0: ba_pct	The percentage of residents in a county with a Bachelor’s Degree or higher.	US Census Bureau American Community Survey 2016
-X1: he_income	The median income level for residents of a county with a Bachelor’s Degree or higher.	US Census Bureau American Community Survey 2016
-X2: ag_pct	The percentage of economic activity in a county that occurs in the agricultural sector.	US Census Bureau American Community Survey 2016
-X3: ind_pct	The percentage of economic activity in a county that occurs in the industrial sector.	US Census Bureau American Community Survey 2016
-X4: pop_per_emp	The number of members in the labor force per employer.	US Census Bureau American Community Survey 2016
-X5: le_lf	The percentage of residents without a college degree in a county that are in the labor force.	US Census Bureau American Community Survey 2016
-X6: le_ue	The percentage of members of the labor force without a Bachelor’s Degree that are unemployed.	US Census Bureau American Community Survey 2016
-X7: he_lf	The percentage of members with a college degree in a county that are in the labor force.	US Census Bureau American Community Survey 2016
-X8: he_ue	The percentage of members of the labor force with a Bachelor’s Degree that are unemployed.	US Census Bureau American Community Survey 2016
-X7: wage	The level of the minimum wage in the state a county was in measured in US Dollars.	United States Department of Labor, Historical Wage Data
+FEATURE|	CONTEXT|	SOURCE
+---|---|---
+Y: le_income|	The median income level for residents of a county with less than a Bachelor’s Degree.|	US Census Bureau American Community Survey 2016
+X0: ba_pct|	The percentage of residents in a county with a Bachelor’s Degree or higher.|	US Census Bureau American Community Survey 2016
+X1: he_income|	The median income level for residents of a county with a Bachelor’s Degree or higher.|	US Census Bureau American Community Survey 2016
+X2: ag_pct|	The percentage of economic activity in a county that occurs in the agricultural sector.|	US Census Bureau American Community Survey 2016|
+X3: ind_pct	The percentage of economic activity in a county that occurs in the industrial sector.|	US Census Bureau American Community Survey 2016|
+X4: pop_per_emp|	The number of members in the labor force per employer.|	US Census Bureau American Community Survey 2016
+X5: le_lf|	The percentage of residents without a college degree in a county that are in the labor force.|	US Census Bureau American Community Survey 2016
+X6: le_ue|	The percentage of members of the labor force without a Bachelor’s Degree that are unemployed.|	US Census Bureau American Community Survey 2016
+X7: he_lf|	The percentage of members with a college degree in a county that are in the labor force.|	US Census Bureau American Community Survey 2016
+X8: he_ue|	The percentage of members of the labor force with a Bachelor’s Degree that are unemployed.|	US Census Bureau American Community Survey 2016
+X9: wage|	The level of the minimum wage in the state a county was in measured in US Dollars.|	United States Department of Labor, Historical Wage Data
 
 The overall results of the regression showed a moderate predicting power with an R2 of 0.61 and an F-Statistic of 460. These results combined mean that the model can capture around 61% of the variation between the income levels of those without a Bachelor’s Degree across various communities and that the null hypothesis that none of the variables is statistically significant is rejected.
 
